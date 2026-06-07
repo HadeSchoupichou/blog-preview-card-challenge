@@ -10,7 +10,7 @@ body {
 }
 
 .card-content {
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 7%);
@@ -50,6 +50,15 @@ h3 {
 h1 {
     font-size: 1.5rem;
     font-weight: 800;
+}
+
+.titre {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
+
+.titre:hover {
+    color: hsl(47, 88%, 63%);
 }
 
 p {
